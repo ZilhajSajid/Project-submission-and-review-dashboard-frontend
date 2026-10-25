@@ -18,12 +18,14 @@ A modern web application for managing project submissions and reviews. Students 
 ## Features
 
 ### For Students
+
 - User registration and authentication
 - Submit projects with title, description, GitHub repository link, and live demo link
 - View personal submission history and status
 - Track review status (pending/approved/rejected) and feedback
 
 ### For Admins
+
 - Dashboard with submission statistics
 - View all student submissions with pagination
 - Review submissions (approve/reject) with marks and feedback
@@ -93,10 +95,12 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to view the 
 ## Test Credentials
 
 ### Admin
-- **Email**: From `.env` configuration (check your `.env` file for admin credentials)
-- **Password**: From `.env` configuration (check your `.env` file for admin credentials)
+
+- **Email**: `testeradmin@yahoo.com`
+- **Password**: `TesterAdmin@123456`
 
 ### Student
+
 - **Email**: `zilhaj@gmail.com`
 - **Password**: `Sa@123456`
 
