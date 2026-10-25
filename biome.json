@@ -23,7 +23,13 @@
     "enabled": true,
     "rules": {
       "recommended": true,
-      "a11y": { "noSvgWithoutTitle": "off" }
+
+      "suspicious": { "noDoubleEquals": "info", "noArrayIndexKey": "info" },
+      "a11y": {
+        "noSvgWithoutTitle": "off",
+        "useSemanticElements": "info",
+        "noLabelWithoutControl": "info"
+      }
     },
     "domains": {
       "next": "recommended",

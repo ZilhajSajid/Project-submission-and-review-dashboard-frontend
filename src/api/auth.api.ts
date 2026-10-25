@@ -1,8 +1,11 @@
 import apiClient from "@/lib/apiClient";
-import { LoginPayload } from "@/types";
+import { LoginPayload, RegisterPayload } from "@/types";
 
 export function userLogin(payload: LoginPayload) {
   return apiClient("/auth/login", { method: "POST", body: payload });
+}
+export function userRegister(payload: RegisterPayload) {
+  return apiClient("/user/register", { method: "POST", body: payload });
 }
 export function getMe() {
   return apiClient("/user/me");
