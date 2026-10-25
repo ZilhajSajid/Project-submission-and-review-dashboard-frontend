@@ -1,6 +1,11 @@
 import { ReactNode } from "react";
 import QueryProvider from "./query.provider";
+import { TooltipProvider } from "@/components/ui/tooltip";
 
 export default function Providers({ children }: { children: ReactNode }) {
-  return <QueryProvider>{children}</QueryProvider>;
+  return (
+    <QueryProvider>
+      <TooltipProvider>{children}</TooltipProvider>
+    </QueryProvider>
+  );
 }

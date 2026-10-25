@@ -23,9 +23,11 @@
     "enabled": true,
     "rules": {
       "recommended": true,
+      "correctness": { "useExhaustiveDependencies": "info" },
 
       "suspicious": { "noDoubleEquals": "info", "noArrayIndexKey": "info" },
       "a11y": {
+        "useValidAriaRole": "info",
         "noSvgWithoutTitle": "off",
         "useSemanticElements": "info",
         "noLabelWithoutControl": "info"

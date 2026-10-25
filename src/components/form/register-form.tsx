@@ -53,7 +53,7 @@ export default function RegisterForm() {
             description: "Welcome",
             type: "success",
           });
-          router.push("/");
+          router.push("/login");
         },
         onError: (err) => {
           toast.add({
